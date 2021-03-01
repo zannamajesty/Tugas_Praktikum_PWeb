@@ -1,0 +1,61 @@
+<html>
+<style type="text/css">
+	div.registrasi
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+</style>
+<body>
+<div class="registrasi">
+<form id="registrasi" action="proses.html" method="post">
+
+	<h1>Form HTML</h1>
+  	<label for="name">Name: </label>
+ 	<input type="text" id="name" name="name">
+ 	<br>
+  	<br>
+  	<label for="gender">Gender: </label>
+
+	<input type="radio" id="man" name="gender" value="man">
+  	<label for="man">Man</label>
+
+  	<input type="radio" id="woman" name="gender" value="woman">
+  	<label for="woman">Woman</label>
+  	<br>
+  	<br>
+  	<label for="country">Country :</label>
+
+  	<select name="country" id="country">
+  		<option value="indonesia">Indonesia</option>
+  		<option value="malaysia">Malaysia</option>
+  		<option value="filipina">Filipina</option>
+  		<option value="vietnam">Vietnam</option>
+	</select>
+	<br>
+	<br>
+	<label for="email">Email :</label>
+	<input type="email" id="email" name="email">
+	<br>
+	<br>
+	<label for="photo">Photo :</label>
+	<input type="file" id="photo" name="photo">
+	<br>
+	<br>
+	<label for="comment">Comment :</label>
+	<textarea rows="4" cols="50" name="comment"></textarea>
+	<input type="submit" value="Submit">
+	<br>
+	<br>
+	<h2><center>Form Registrasi</center></h2>
+</form>
+</div>
+</body>
+</html>
