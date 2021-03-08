@@ -1,0 +1,43 @@
+body {
+	color: plum;
+	font-family: times;
+	font-weight: bold;
+	background-image: url('3.jpg');
+	background-repeat: repeat;
+
+}
+h1 {text-align: center; color: #DDA0DD;}
+h2 {font-family: times; color: #FFA07A; text-align: center; text-decoration: underline; font-weight: 900;}
+h3 {font-family: times; color: #DDA0DD; text-align: center;}
+
+th {
+	color: #E9967A; border-width: 1px;
+	border-style: solid; border-color: pink; font-size: 12pt; font-family: times; font-weight: bold;
+}
+td {
+	color: #DDA0DD;
+	border-width: 1px;
+	border-style: solid; border-color: salmon; font-size: 12pt; font-family: times; font-weight: bold;
+}
+.leftlink {
+	border: 1px; padding: 5px;
+}
+.leftlink a {
+	display: black; margin: 3px 0px;
+	border-top: 1px solid #FFDAB9; border-left: 1px solid #FFDAB9;
+	border-right: 1px solid #FFA07A; border-bottom: 1px solid #FFA07A; padding: 4px 10px;
+	text-align: center;
+	color: #FFFFFF; text-decoration: none;
+}
+.leftlink a :link {
+	color: #FFFFFF;
+}
+.leftlink a :visited {
+	color: #FFFFFF;
+}
+.leftlink a :hover {
+	display: black; margin: 3px 0px;
+	border-top: 1px solid #FFDAB9; border-left: 1px solid #FFDAB9;
+	border-bottom: 1px solid #FFA07A; border-right: 1px solid #FFA07A; padding: 5px 9px 3px 11px;
+	text-align: center; background-color: pink; color: #E9967A; text-decoration: none;
+}
